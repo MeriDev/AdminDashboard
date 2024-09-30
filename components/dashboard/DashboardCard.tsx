@@ -1,5 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { Newspaper, LucideIcon } from 'lucide-react';
+import { LucideIcon } from 'lucide-react';
 
 interface dashboardCardProps {
   title: string;

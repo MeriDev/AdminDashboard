@@ -25,7 +25,9 @@ export default function RootLayout({
           <div className="hidden md:block h-[100vh] w-[300px] ">
             <Sidebar />
           </div>
-          <div className="p-5 w-full md:mx-w-[1140px]">{children}</div>
+          <div className="p-5 w-full md:mx-w-[1140px] h-[100vh]">
+            {children}
+          </div>
         </div>
       </body>
     </html>

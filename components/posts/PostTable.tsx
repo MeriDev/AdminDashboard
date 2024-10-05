@@ -53,7 +53,7 @@ const PostTable = ({ limit, title }: PostTableProps) => {
                 {post.date}
               </TableCell>
               <TableCell>
-                <Link href={`/post/edit/${post.id}`}>
+                <Link href={`/posts/edit/${post.id}`}>
                   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bolf rounded text-xs px-4 py-2">
                     Edit
                   </button>
